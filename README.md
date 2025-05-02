@@ -47,9 +47,9 @@ Metrics from our runs, including baseline evaluations and scaled experiments, ca
 
 ![Training Accuracy](https://github.com/SaadRasool-SR/video-action-recognition/blob/main/src/visualization/Training_Accuracy.png)
 
-![Training Loss](https://github.com/SaadRasool-SR/video-action-recognition/blob/main/src/visualization/Training_Testing_Accuracy.png)
+![Training Loss](https://github.com/SaadRasool-SR/video-action-recognition/blob/main/src/visualization/Training_loss.png)
 
-![Training and Testing Accuracy](https://github.com/SaadRasool-SR/video_action_recognition/blob/main/src/visualization/Training_Testing_Accuracy.png)
+![Training and Testing Accuracy](https://github.com/SaadRasool-SR/video-action-recognition/blob/main/src/visualization/Training_Testing_Accuracy.png)
 
 
 
