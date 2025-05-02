@@ -1,0 +1,8 @@
+Using GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Number of GPUs: 1
+CROP_SIZE = 112, frames_per_clip = 8
+Running baseline evaluation (pretrained backbone + random UCF101 head)...
+Baseline accuracy on validation set: 2.084%
+Baseline Accuracy: 2.08%
+
+

@@ -1,0 +1,120 @@
+# Project-specific .gitignore template
+#
+# Created by: Joseph David Johns
+# Date: 03/14/2024
+#
+# This work is licensed under the MIT License.
+# For more details, see https://opensource.org/licenses/MIT
+#
+# This .gitignore file includes common patterns for Python data science projects.
+# Review and customize this file based on the specific needs of your project.
+
+################################################################################
+# LICENSE for this .gitignore template:
+#
+# MIT License
+# 
+# Copyright (c) 2024 Joseph David Johns
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# (full MIT License text here)
+################################################################################
+
+################################################################################
+### Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+################################################################################
+### Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+################################################################################
+### Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+################################################################################
+### Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+################################################################################
+### IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+################################################################################
+### Operating system files
+.DS_Store
+Thumbs.db
+
+################################################################################
+### Log files
+*.log
+
+################################################################################
+### Large files and personal data (uncomment if applicable)
+# *.csv
+# *.json
+
+################################################################################
+### Serialized model files (uncomment if applicable)
+# *.pkl
+# *.h5
+
+################################################################################
+### MLflow experiment tracking directory (uncomment if using MLflow)
+# mlruns/
+
+################################################################################
+### DVC directory (uncomment if using DVC for data version control)
+# .dvc/
+# .dvcignore
+
+################################################################################
+### Additional library/project-specific files ###
+# Add or uncomment entries based on your specific project needs.
+# For example, if you keep large or proprietary data in 'data/raw/', you can ignore it:
+data/ucf101/raw/
+# data/processed/
+
+
+################################################################################
+### Additional mlflow ###
+mlruns/
+# If you store compiled code in 'build/', consider ignoring build artifacts:
+# build/
+
+# Docker build caching or ephemeral container data (optional)
+docker/*.pid
+docker/*.sock
+
+################################################################################
+### End of .gitignore file
+################################################################################
+
+#
+# Note:
+#  - This template covers most Python, data science, and ML projects.
+#  - Uncomment lines relevant to your workflow.
+#  - Always review and adjust to ensure it fits your exact needs.
+#
