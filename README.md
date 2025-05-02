@@ -45,11 +45,11 @@ Metrics from our runs, including baseline evaluations and scaled experiments, ca
 
 [📈 View Test Results »](./reports/test_runs.md)
 
-![Training Accuracy](https://github.gatech.edu/jjohns7/video_action_recognition/blob/main/src/visualization/Training_Accuracy.png)
+![Training Accuracy](https://github.gatech.edu/SaadRasool-SR/video_action_recognition/blob/main/src/visualization/Training_Accuracy.png)
 
-![Training Loss](https://github.gatech.edu/jjohns7/video_action_recognition/blob/main/src/visualization/Training_loss.png)
+![Training Loss](https://github.gatech.edu/SaadRasool-SR/video_action_recognition/blob/main/src/visualization/Training_loss.png)
 
-![Training and Testing Accuracy](https://github.gatech.edu/jjohns7/video_action_recognition/blob/main/src/visualization/Training_Testing_Accuracy.png)
+![Training and Testing Accuracy](https://github.gatech.edu/SaadRasool-SR/video_action_recognition/blob/main/src/visualization/Training_Testing_Accuracy.png)
 
 
 
